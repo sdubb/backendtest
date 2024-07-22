@@ -63,4 +63,4 @@ jobs:
           app-name: 'vennverse'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_80D002B87B3448DF879E048A3C1C4F1C }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CE7B21C906C84AABB31330EB2870B9AA }}

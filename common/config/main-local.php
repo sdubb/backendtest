@@ -3,8 +3,8 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=venn-server.mysql.database.azure.com;dbname=vennverse',
-            'username' => 'venn-database',
+            'dsn' => 'mysql:host=venn-server.mysql.database.azure.com;dbname=venn-database',
+            'username' => 'jtalpgokea',
             'password' => 'Ay0413!1',
             'charset' => 'utf8',
         ],

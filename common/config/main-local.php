@@ -3,9 +3,9 @@ return [
     'components' => [
         'db' => [
             'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=vennverse',
-            'username' => 'admin',
-            'password' => 'admin',
+            'dsn' => 'mysql:host=venn-server.mysql.database.azure.com;dbname=vennverse',
+            'username' => 'venn-database',
+            'password' => 'Ay0413!1',
             'charset' => 'utf8',
         ],
         'mailer' => [

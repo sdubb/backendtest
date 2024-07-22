@@ -21,6 +21,9 @@ return [
         'pushNotification' => [
             'class' => 'common\components\PushNotification'
         ],
+    'request' => [
+		'virtualDir' => '/api',
+	],
         'contentModeration' => [
             'class' => 'common\components\ContentModeration'
         ],

@@ -2,10 +2,10 @@
 return [
     'components' => [
         'db' => [
-            'class' => 'yii\db\Connection',
-            'dsn' => 'mysql:host=localhost;dbname=vennverse',
-            'username' => 'admin',
-            'password' => 'admin',
+           'class' => 'yii\db\Connection',
+            'dsn' => 'mysql:host=venn-server.mysql.database.azure.com;dbname=venn-database',
+            'username' => 'jtalpgokea',
+            'password' => 'Ay0413!1',
             'charset' => 'utf8',
         ],
         'mailer' => [

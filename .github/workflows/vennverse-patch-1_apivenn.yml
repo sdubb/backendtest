@@ -61,6 +61,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'apivenn'
-          slot-name: 'Development'
+          slot-name: 'Production'
           package: .
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_605543FA0DA845F886002494A51D70B4 }}

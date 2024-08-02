@@ -63,4 +63,4 @@ jobs:
           app-name: 'apivenn'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_76F12F5433FC42F3B3414D4DA8AFAD35 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0FBB8453037649B884CFC65D00B429C8 }}

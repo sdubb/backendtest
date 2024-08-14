@@ -2,10 +2,10 @@
   "port":4000,
   "db":{
     "live":{
-      "host": "127.0.0.1",
-      "user": "########",
-      "password": "######",
-      "database": "#####"
+      "host": "venn-server.mysql.database.azure.com",
+      "user": "jtalpgokea",
+      "password": "Ay0413!1",
+      "database": "venn-database"
     },
     "dev":{
       "host": "localhost",
@@ -17,20 +17,17 @@
   "encryptionKey":"bbC4H19lsVbQDfakxc456rtNMQdd0FloL",
   "storageUrl":"",
   "pushNotification":{ 
-      "databaseURL": "https://###########.firebaseio.com"
+      "databaseURL": "https://vennverse-f1868-default-rtdb.firebaseio.com"
   },
   "voipNotification":{
-    "key": "cert/AuthKey_#######.p8", 
-    "keyId": "#######",
-    "teamId": "###########",
-    "bundleId":"com.#####.app",
+    "key": "cert/AuthKey_M593V6D4N2.p8", 
+    "keyId": "M593V6D4N2",
+    "teamId": "Q4ZJ78HD49",
+    "bundleId":"com.jasspv.sayhi",
     "production":true
   },
   "sslCertificatePath":{
-    "isSsl":true,
-    "key": "######Path ssl######/##privkey.pem",
-    "cert": "######path ssl#####/##fullchain.pem"
+    "isSsl":false,
+    "key": "C:/xampp/apache/conf/ssl.key/server.key",
+    "cert": "C:/xampp/apache/conf/ssl.crt/server.crt"
   }
-
-  
-}
